@@ -1,0 +1,7 @@
+public class
+{
+psvm(String[] args){
+Syso("Hi");
+}
+
+}
