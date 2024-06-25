@@ -1,0 +1,66 @@
+1) Length and breadth of a rectangle are 5 and 7 respectively. Write a program to calculate the area and perimeter of the rectangle.
+
+CODE:
+  public class Rectangle {
+    public static void main(String[] args) {
+        int len = 7;
+        int bre = 5;
+        int pere = 2*(len+bre);
+        System.out.println(pere);
+    }
+}
+
+2)Write a program to add 8 to the number 2345 and then divide it by 3. Now, the modulus of the quotient is taken with 5 and then multiply the resultant value by 5. Display the final result.
+
+CODE:
+public class Adding {
+        public static void main(String[] args) {
+            int initialNumber = 2345;
+            int numberPlus8 = initialNumber + 8;
+            int quotient = numberPlus8 / 3;
+            int modulusResult = quotient % 5;
+            int finalResult = modulusResult * 5;
+            System.out.println("The final result is: " + finalResult);
+        }
+    }
+    
+3)Write a program to check if the two numbers 23 and 45 are equal.
+CODE:
+public class Twonumber {
+    public static void main(String[] args) {
+        int num1 =23;
+        int num2 =43;   
+        if(num1==num2)
+        {
+            System.out.println("Equal");
+        }
+        else
+        {
+            System.out.println("Not equal");
+        }
+    }
+
+}
+
+4)Write a program to calculate the perimeter of a triangle having sides of length 2,3 and 5 units.
+CODE:
+public class Perimeter {
+    public static void main(String[] args) {
+        System.out.println(2+3+5);
+    }
+}
+ 5) If the marks of Robert in three subjects are 78,45 and 62 respectively (each out of 100 ), write a program to calculate his total marks and percentage marks.
+
+CODE:
+public class subjects {
+    public static void main(String[] args) {
+        int sub1=78;
+        int sub2=45;
+        int sub3=62;
+        int total = sub1+sub2+sub3;
+        double percentage= (double)total/300*100;
+        System.out.println("this is total marks of the student " + total);
+        System.out.println("this is total marks of the student" + percentage);
+    }
+}
+
